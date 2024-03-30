@@ -1,0 +1,99 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.05261821049958,
+        "y": 0.9488924241006382
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.810266076672505,
+        "y": 2.236585876680526
+      },
+      "isLocked": false,
+      "linkedName": "saa"
+    },
+    {
+      "anchor": {
+        "x": 2.865571345177778,
+        "y": 2.753476910462594
+      },
+      "prevControl": {
+        "x": 4.280220490265542,
+        "y": 0.6587079840826352
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "sa"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.1,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "intakeStop"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.25,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "triggerShootStop"
+              }
+            },
+            {
+              "type": "named",
+              "data": {
+                "name": "REVERSE"
+              }
+            },
+            {
+              "type": "named",
+              "data": {
+                "name": "shootTEST"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.5,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 140.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "acil",
+  "previewStartingState": {
+    "rotation": 140.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

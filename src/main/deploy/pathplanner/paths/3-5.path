@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.099773182002506,
+        "y": 5.771395086649823
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.975985811620746,
+        "y": 7.323881840746138
+      },
+      "isLocked": false,
+      "linkedName": "orta2"
+    },
+    {
+      "anchor": {
+        "x": 4.0,
+        "y": 5.79
+      },
+      "prevControl": {
+        "x": 4.488790556528482,
+        "y": 6.340597970669626
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "middenatışageliş"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.5,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": null,
+  "previewStartingState": {
+    "rotation": 180.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

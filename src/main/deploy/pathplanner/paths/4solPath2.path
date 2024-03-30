@@ -1,0 +1,70 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.66,
+        "y": 6.83
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.6505921840415114,
+        "y": 6.993242497913568
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.65,
+        "y": 7.49
+      },
+      "prevControl": {
+        "x": 7.418605537211075,
+        "y": 7.358064878986901
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.3,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "shootstop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "uzak4object",
+  "previewStartingState": {
+    "rotation": -149,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

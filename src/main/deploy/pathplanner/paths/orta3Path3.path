@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.9,
+        "y": 7.109999999999999
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.467143220000726,
+        "y": 6.979728945172176
+      },
+      "isLocked": false,
+      "linkedName": "orta3Path2END"
+    },
+    {
+      "anchor": {
+        "x": 4.47,
+        "y": 6.63
+      },
+      "prevControl": {
+        "x": 5.57291628868972,
+        "y": 7.124496534707355
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "orta3Path3END"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.5,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 195.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": null,
+  "previewStartingState": {
+    "rotation": 180.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
